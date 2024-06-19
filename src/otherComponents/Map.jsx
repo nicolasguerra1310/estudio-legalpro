@@ -14,7 +14,7 @@ const marcadorIcono = L.icon({
 });
 
 const Map = () => {
-    const location = { lat: -26.811715, lng: -65.2933575 };
+    const location = { lat: -26.8123039, lng: -65.2903642 };
 
     return (
         <div className='py-8 flex flex-col items-center text-white font-libreBaskerville'>

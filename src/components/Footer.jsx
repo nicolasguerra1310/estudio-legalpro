@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { TbBrandLinktree } from "react-icons/tb";
 import logo from '../media/logoBlanco.png';
 import TransitionUp from '../animations/TransitionUp';
 import ShowTransition from '../animations/ShowTransition';
@@ -55,16 +56,16 @@ const Footer = () => {
             <ShowTransition>
               <section className="flex justify-center items-center">
                 <a
-                  href="https://api.whatsapp.com/send/?phone=%2B5493815575624&text&type=phone_number&app_absent=0"
+                  href="https://linktr.ee/legalprotucuman"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#1ED760] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
                 >
-                  <FaWhatsapp className="w-5 h-5" />
+                  <TbBrandLinktree className="w-5 h-5" />
                   <span
                     className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-200 group-hover:text-sm group-hover:-translate-y-10 duration-700"
                   >
-                    WhatsApp
+                    linktr.ee
                   </span>
                 </a>
               </section>

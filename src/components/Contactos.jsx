@@ -2,7 +2,8 @@ import React, { useRef, useEffect, useState } from 'react';
 import ShowTransition from '../animations/ShowTransition'
 import CardAnimation from '../animations/CardAnimation'
 import CardContact from '../otherComponents/CardContact'
-import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { TbBrandLinktree } from "react-icons/tb";
 import FormContact from '../otherComponents/FormContact';
 import Map from '../otherComponents/Map';
 
@@ -42,14 +43,14 @@ const Contactos = () => {
     <div className='py-8 flex flex-col items-center text-white font-libreBaskerville'>
       <ShowTransition>
         <div className='relative mt-10'>
-          <h1 className='text-3xl md:text-4xl font-montserrat text-center '>Contactos</h1>
-          <div className=" w-40 h-0.5 bg-white mt-1 mb-10 mx-auto"></div>
+          <h1 className='text-3xl md:text-4xl font-montserrat text-center'>Contactos</h1>
+          <div className="w-40 h-0.5 bg-white mt-1 mb-10 mx-auto"></div>
         </div>
       </ShowTransition>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-8 justify-center mb-16'>
         <div ref={(el) => (cardRefs.current[0] = el)}>
           <CardAnimation isVisible={visibleCards.includes(cardRefs.current[0])} delay={0.1}>
-            <CardContact icon={FaPhone} text=" 381 557-5624" />
+            <CardContact icon={TbBrandLinktree} link="https://linktr.ee/legalprotucuman" />
           </CardAnimation>
         </div>
         <div ref={(el) => (cardRefs.current[1] = el)}>
@@ -76,4 +77,4 @@ const Contactos = () => {
   )
 }
 
-export default Contactos
+export default Contactos;
