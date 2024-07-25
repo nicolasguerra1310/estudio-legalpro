@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 const CardContact = ({ icon: Icon, text, link }) => {
   const renderContent = () => {
@@ -8,6 +9,9 @@ const CardContact = ({ icon: Icon, text, link }) => {
           <div className="cardContact">
             <div className="icon-container">
               <Icon className="w-8 h-8" />
+            </div>
+            <div className="text-container">
+              <p>{text}</p>
             </div>
           </div>
         </a>

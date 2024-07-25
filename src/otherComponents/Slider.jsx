@@ -5,14 +5,17 @@ import { GiHandcuffs } from 'react-icons/gi';
 import { CiDollar, CiBank } from 'react-icons/ci';
 import { PiHandshakeThin, PiBagLight } from 'react-icons/pi';
 import { IoPeopleOutline } from 'react-icons/io5';
+import { MdHomeRepairService } from "react-icons/md";
+import { FaPeopleLine } from "react-icons/fa6";
+import { FaFileContract } from "react-icons/fa6";
 
 const cards = [
-  { id: 1, icon: GiHandcuffs, title: 'Derecho Civil', description: 'Asesoramiento en contratos civiles, responsabilidad civil y daños, derechos de propiedad y posesión, sucesiones y testamentos, contratos de arrendamiento y desahucios.' },
-  { id: 2, icon: CiDollar, title: 'Derecho Comercial', description: 'Asesoramiento en constitución de sociedades, contratos comerciales, litigios comerciales, resolución de conflictos comerciales, protección de la propiedad intelectual y marcas.' },
-  { id: 3, icon: PiHandshakeThin, title: 'Derecho Laboral', description: 'Asesoramiento en contratación laboral, negociación colectiva y convenios laborales, resolución de conflictos laborales, despidos e indemnizaciones laborales, seguridad y salud laboral.' },
-  { id: 4, icon: IoPeopleOutline, title: 'Derecho Societario', description: 'Asesoramiento en constitución y registro de sociedades, estatutos sociales, asesoramiento en acuerdos de accionistas, adquisiciones y reestructuraciones societarias.' },
-  { id: 5, icon: PiBagLight, title: 'Derecho Administrativo', description: 'Asesoramiento en procedimientos administrativos, recursos administrativos y reclamaciones, contratación pública y licitaciones, concesiones y permisos administrativos.' },
-  { id: 6, icon: CiBank , title: 'Derecho Bancario', description: 'Asesoramiento en contratos bancarios, defensa en casos de abusos bancarios, ejecución de garantías y embargos bancarios, reclamaciones por productos financieros complejos.' },
+  { id: 1, icon: PiHandshakeThin, title: 'Derecho Civil', description: 'Asesoramiento en contratos civiles, responsabilidad civil y daños, derechos de propiedad y posesión, sucesiones y testamentos, contratos de arrendamiento y desahucios.' },
+  { id: 2, icon: CiBank, title: 'Derecho Constitucional', description: 'Asesoramiento en derechos fundamentales, acciones de amparo, control de constitucionalidad, recursos de protección, derechos civiles y políticos, y defensa contra abusos de poder estatal.' },
+  { id: 3, icon: FaFileContract, title: 'Derecho Laboral', description: 'Asesoramiento en contratación laboral, negociación colectiva y convenios laborales, resolución de conflictos laborales, despidos e indemnizaciones laborales, seguridad y salud laboral.' },
+  { id: 4, icon: FaPeopleLine, title: 'Derecho de Familia', description: 'Asesoramiento en divorcios, custodia de hijos, régimen de visitas, pensiones alimenticias, adopciones, régimen económico matrimonial, tutelas y curatelas, y violencia doméstica.' },
+  { id: 5, icon: MdHomeRepairService, title: 'Derecho Administrativo', description: 'Asesoramiento en procedimientos administrativos, recursos administrativos y reclamaciones, contratación pública y licitaciones, concesiones y permisos administrativos.' },
+  { id: 6, icon: GiHandcuffs , title: 'Derecho Penal', description: 'Asesoramiento en delitos y faltas, defensa penal, representación en juicios penales, recursos y apelaciones, medidas cautelares y prisión preventiva, delitos económicos y corporativos, delitos contra las personas y la propiedad.' },
 ];
 
 export default function Slider() {

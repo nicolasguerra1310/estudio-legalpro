@@ -15,12 +15,9 @@ const Enfoque = () => {
                   <div className=" w-44 h-0.5 bg-white mt-2 mb-5 mx-auto"></div>
                 </TransitionUp>
                 <p className="text-sm md:text-ml text-white mt-4 leading-relaxed text-center">
-                  Es un estudio jurídico con alto prestigio en la provincia de Tucumán y en el Noroeste Argentino.
-                  Cuenta con una importante presencia en la vida de los tucumanos, tanto en ámbitos jurídicos,
-                  empresariales, políticos y sociales.
-
-                  Nacido como un estudio especializado en Derecho de Seguros, Courel & Asociados se desarrolló
-                  como, con una actividad importante, en las distintas especialidades del Derecho Empresario de Tucumán.
+                En LEGAL PRO TUCUMÁN, ofrecemos servicios jurídicos de excelencia, adaptados a las necesidades de cada cliente. 
+                  Ubicados en Tucumán, nuestro equipo de abogados altamente calificados se dedica a brindar soluciones legales efectivas y personalizadas.
+                  La comunicación clara y el compromiso con los intereses de nuestros clientes son nuestras prioridades.
                 </p>
               </div>
             </div>

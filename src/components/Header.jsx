@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
 import { Link as ScrollLink } from 'react-scroll';
 import NavAnimation from '../animations/NavAnimation';
+import { GoLaw } from "react-icons/go";
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -40,7 +41,12 @@ const Header = () => {
         <NavAnimation>
             <nav className={`fixed top-0 w-full transition-all z-50  ${isScrolled ? ' bg-[#06091a] shadow-md py-3' : 'bg-transparent py-6'}`}>
                 <div className="container mx-auto px-4 flex justify-between items-center">
-                    <a className="text-xl md:text-2xl uppercase font-semibold text-white" href="#page-top">Legal Pro</a>
+                <div className="flex items-center">
+                        <a className="text-xl md:text-2xl uppercase font-semibold text-white flex items-center" href="#page-top">
+                            Legal Pro
+                            <GoLaw className="ml-2 mt-1 w-6 h-6" />
+                        </a>
+                    </div>
                     <button className="block md:hidden text-white focus:outline-none" onClick={toggleMenu}>
                         {isMenuOpen ? <HiOutlineX className="w-6 h-6" /> : <HiOutlineMenu className="w-6 h-6" />}
                     </button>
