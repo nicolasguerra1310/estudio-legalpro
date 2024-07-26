@@ -15,9 +15,9 @@ const Enfoque = () => {
                   <div className=" w-44 h-0.5 bg-white mt-2 mb-5 mx-auto"></div>
                 </TransitionUp>
                 <p className="text-sm md:text-ml text-white mt-4 leading-relaxed text-center">
-                En LEGAL PRO TUCUMÁN, ofrecemos servicios jurídicos de excelencia, adaptados a las necesidades de cada cliente. 
-                  Ubicados en Tucumán, nuestro equipo de abogados altamente calificados se dedica a brindar soluciones legales efectivas y personalizadas.
-                  La comunicación clara y el compromiso con los intereses de nuestros clientes son nuestras prioridades.
+                En Legal Pro Tucumán, nuestro enfoque se basa en la comprensión profunda de las necesidades de nuestros clientes
+                y en la búsqueda de soluciones legales efectivas. Nos esforzamos por mantenernos a la vanguardia del desarrollo 
+                legal y por ofrecer un servicio personalizado y de alta calidad.
                 </p>
               </div>
             </div>

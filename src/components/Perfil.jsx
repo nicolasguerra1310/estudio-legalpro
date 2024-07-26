@@ -19,20 +19,18 @@ const Perfil = () => {
         <div className='flex flex-col justify-center px-4 lg:px-0 text-center lg:text-left'>
           <ShowTransition>
             <p className='text-sm md:text-ml'>
-              Legal Pro Tucumán, constituido en 1972 por el Dr. Nicolas Guerra, es un Estudio Jurídico
-              con alto prestigio en la Provincia de Tucumán y en el Noroeste Argentino. El Estudio
-              cuenta con una importante presencia en la vida provincial tanto en ámbitos jurídicos,
-              empresariales, políticos y sociales.
+            Legal Pro Tucumán es un estudio jurídico de prestigio con más de 15 años de experiencia y una destacada presencia 
+            en los ámbitos legales. Con un equipo de profesionales altamente calificados, ofrecemos asesoramiento y representación
+            legal de excelencia, adaptándonos a las necesidades de cada cliente y asegurando soluciones efectivas y personalizadas.
             </p>
           </ShowTransition>
           <br />
           <ShowTransition>
             <p className='text-sm md:text-ml'>
-              Iniciado como un Estudio especializado en derecho de Seguros, continuamos con una importante
-              actividad en las distintas especialidades del Derecho Empresario. En la actualidad, centramos
-              nuestra actividad en el asesoramiento permanente de empresas de la más diversa índole, tales
-              como agropecuarias, agro-industrias, comerciales, bancos, generadoras de energía, transportistas,
-              inmobiliarias, etc.
+              Iniciado como un Estudio especializado en derecho penal, continuamos con una importante
+              actividad en las distintas especialidades del Derecho. En la actualidad, centramos
+              nuestra actividad en el asesoramiento en las areas de derecho penal, civil, constitucional,
+              laboral, de familia y derecho administrativo.
             </p>
           </ShowTransition>
         </div>
